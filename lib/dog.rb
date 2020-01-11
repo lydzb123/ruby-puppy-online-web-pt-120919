@@ -21,7 +21,6 @@ class Dog
   def self.print_all
     self.all
   end
-  binding.pry
 
 
   def save
