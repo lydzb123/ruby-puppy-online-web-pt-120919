@@ -2,7 +2,7 @@ require 'pry'
 
 class Dog
   attr_accessor :name
-  @@all? = []
+  @@all = []
 
   def initialize(name)
     @name = name
@@ -10,7 +10,7 @@ class Dog
   end
 
   def self.all
-    @@all?
+    @@all
   end
 
   def self.print_all
